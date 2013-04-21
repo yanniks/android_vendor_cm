@@ -8,3 +8,15 @@ $L "____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___";
 $L "|     \\_/  |__| |\\ | |  | | __ |___ |\\ | |\\/| |  | |  \\";
 $L "|___   |   |  | | \\| |__| |__] |___ | \\| |  | |__| |__/";
 $L "Welcome to Android `getprop ro.build.version.release` / CyanogenMod-`getprop ro.cm.version`";
+
+#CONFIG_CPU_FREQ_VDD_LEVELS
+
+echo '768000 1025' > /sys/devices/system/cpu/cpu0/cpufreq/vdd_levels
+
+echo '806400 1050' > /sys/devices/system/cpu/cpu0/cpufreq/vdd_levels
+
+echo '1024000 1100' > /sys/devices/system/cpu/cpu0/cpufreq/vdd_levels
+
+echo '1200000 1175' > /sys/devices/system/cpu/cpu0/cpufreq/vdd_levels
+
+
