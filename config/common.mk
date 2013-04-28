@@ -155,6 +155,7 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     CMWallpapers \
     Apollo \
+    ProximitySensor \
     FM \
     CMUpdater \
     CMFileManager \
