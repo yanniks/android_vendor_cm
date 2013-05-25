@@ -156,7 +156,6 @@ PRODUCT_PACKAGES += \
     CMWallpapers \
     Apollo \
     ProximitySensor \
-    FM \
     CMUpdater \
     CMFileManager \
     LockClock
