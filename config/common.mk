@@ -159,7 +159,6 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     CMWallpapers \
     Apollo \
-    ProximitySensor \
     CMUpdater \
     CMFileManager \
     LockClock
