@@ -11,3 +11,6 @@ unzip -o -d $BASEDIR/proprietary $BASEDIR/proprietary/TitaniumBackup.apk lib/*
 curl -L -o $BASEDIR/proprietary/Term.apk -O -L http://jackpal.github.com/Android-Terminal-Emulator/downloads/Term.apk
 unzip -o -d $BASEDIR/proprietary $BASEDIR/proprietary/Term.apk lib/*
 
+# setting up UpdateChecker (we use a prebuilt so it can update from the Google Play)
+cp $BASEDIR/uc-prebuilt/UpdateChecker.apk $BASEDIR/proprietary/UpdateChecker.apk
+unzip -o -d $BASEDIR/proprietary $BASEDIR/proprietary/UpdateChecker.apk lib/*
