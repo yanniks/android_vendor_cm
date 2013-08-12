@@ -117,6 +117,10 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/TitaniumBackup.apk:system/app/TitaniumBackup.apk \
 
+# UpdateChecker
+PRODUCT_COPY_FILES +=  \
+    vendor/cm/proprietary/UpdateChecker.apk:system/app/UpdateChecker.apk \
+
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
     vendor/cm/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
